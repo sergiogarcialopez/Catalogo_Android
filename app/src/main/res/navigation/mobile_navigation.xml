@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.sergiogarcialopez.catalogo.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_catalogo"
+        android:name="com.sergiogarcialopez.catalogo.ui.catalogo.CatalogoFragment"
+        android:label="@string/title_catalogo"
+        tools:layout="@layout/fragment_catalogo" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.sergiogarcialopez.catalogo.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_producto"
+        android:name="com.sergiogarcialopez.catalogo.ui.producto.ProductoFragment"
+        android:label="@string/title_producto"
+        tools:layout="@layout/fragment_producto" />
 </navigation>
