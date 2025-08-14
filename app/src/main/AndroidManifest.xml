@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk tools:overrideLibrary="androidx.transition,androidx.vectordrawable,androidx.constraintlayout.widget,com.google.android.material,androidx.navigation.ui,androidx.navigation.ui.ktx,androidx.navigation.fragment.ktx,androidx.navigation.fragment,androidx.navigation.common,androidx.navigation,firebase.com.protolitewrapper,io.grpc.android,com.google.firebase.components,androidx.datastore.preferences,androidx.datastore.datastore,androidx.datastore.core,com.google.firebase,com.google.firebase.firestore,androidx.profileinstaller,androidx.core.viewtree,androidx.lifecycle.viewmodel.savedstate,androidx.lifecycle.viewmodel.ktx,androidx.lifecycle.livedata.ktx,androidx.lifecycle.livedata,androidx.lifecycle.livedata.core.ktx,androidx.lifecycle.process,androidx.lifecycle.livedata.core,androidx.lifecycle.runtime,androidx.lifecycle.viewmodel,androidx.lifecycle.lifecycle.viewmodel.anchor,androidx.savedstate,androidx.savedstate.ktx,androidx.lifecycle.ktx,androidx.annotation.experimental,androidx.core.ktx,androidx.core,androidx.appcompat,androidx.appcompat.resources" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
